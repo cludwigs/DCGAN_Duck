@@ -1,0 +1,8 @@
+ignore/
+data/duck_original/*
+data/duck_resized/*
+.venv/
+__pycache__/
+models/*
+!models/duck_dcgan_v3/
+!models/duck_dcgan_v3/**
