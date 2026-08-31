@@ -82,6 +82,14 @@ Voir `requirements.txt` pour la liste complète.
 
 Le modèle génère des images synthétiques de canards après entraînement. Les résultats s'améliorent graduellement avec le nombre d'epochs et la taille du dataset.
 
+### Comparaison : Image originale vs Générée (50 epochs)
+
+| Image Originale | Image Générée (50 epochs) |
+|---|---|
+| ![Original](original.png) | ![Généré](models/duck_dcgan_v3/sample_epoch_050.png) |
+
+Cette comparaison montre la capacité du modèle à reproduire les caractéristiques visuelles des canards après un entraînement de 50 epochs.
+
 ## Notes
 
 - Les datasets originaux se trouvent dans `data/duck_original/`
